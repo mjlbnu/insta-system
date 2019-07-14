@@ -31,6 +31,8 @@ target 'instadog' do
 
   pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
 
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
   target 'instadogTests' do
     inherit! :search_paths
     # Pods for testing
